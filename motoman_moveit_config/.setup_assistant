@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: motoman_description
+    relative_path: urdf/sia5_basic.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/sia5.srdf
+  CONFIG:
+    author_name: prem
+    author_email: gmp.prem1997@gmail.com
+    generated_timestamp: 1655037143
